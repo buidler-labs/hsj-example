@@ -1,0 +1,15 @@
+{
+  "name": "hsj-example",
+  "version": "1.0.0",
+  "description": "A simple Hedera Strato JS (HSJ) usage example. It's that easy!",
+  "main": "main.mjs",
+  "scripts": {
+    "test": "node main.mjs"
+  },
+  "keywords": [],
+  "author": "3Vs Developers <devs@3vs.ro>",
+  "license": "ISC",
+  "dependencies": {
+    "@3vs/hedera-strato-js": "^0.6.9"
+  }
+}

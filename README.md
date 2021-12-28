@@ -16,7 +16,11 @@ HEDERA_OPERATOR_ID=0.0...
 HEDERA_OPERATOR_KEY=91132178...
 ```
 
-Then, you can simply run the example by doing a `npm test` call.
+Then, you can simply run the example by doing a `npm test` call. 
+
+If all goes to plan, you should see the `hello.sol` > `HelloWorld` > `greet` message logged: `Hello Future!`.
+
+**And that's it!** You managed to successfully compile, upload and execute a smart-contract on the Hedera network. Happy coding!
 
 ## License
 This work has been published under the MIT License.

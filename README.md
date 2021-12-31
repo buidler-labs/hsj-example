@@ -1,5 +1,5 @@
 # Hedera Strato JS Example
-This repo is a basic example of a minimum working _Smart Contract_ upload and query call on the [Hedera Hashgraph network](https://hedera.com/). It show-cases the [hedera-strato-js](https://github.com/three-Vs/hedera-strato-js) (hsj - hence, its name: *hsj-example*) library in all its simplistic glory.
+This repo is a basic example of a minimum working _Smart Contract_ upload and query call on the [Hedera Hashgraph network](https://hedera.com/). It show-cases the [hedera-strato-js](https://github.com/buidler-labs/hedera-strato-js) (hsj - hence, its name: *hsj-example*) library in all its simplistic glory.
 
 To run it, simply _clone it_ and do a 
 

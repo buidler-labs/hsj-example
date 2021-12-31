@@ -1,4 +1,4 @@
-import { HederaNetwork, Contract } from '@3vs/hedera-strato-js';
+import { HederaNetwork, Contract } from '@buidlerlabs/hedera-strato-js';
 
 const hapiSession = await HederaNetwork.defaultApiSession();
 const helloContract = await Contract.newFrom({ path: './hello.sol' });

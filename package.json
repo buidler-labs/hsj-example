@@ -7,9 +7,9 @@
     "test": "node main.mjs"
   },
   "keywords": [],
-  "author": "3Vs Developers <devs@3vs.ro>",
+  "author": "BuiDlerLabs Developers <devs@3vs.ro>",
   "license": "ISC",
   "dependencies": {
-    "@3vs/hedera-strato-js": "^0.6.9"
+    "@buidlerlabs/hedera-strato-js": "^0.6.9"
   }
 }

@@ -2,14 +2,15 @@
   "name": "hsj-example",
   "version": "1.0.0",
   "description": "A simple Hedera Strato JS (HSJ) usage example. It's that easy!",
+  "homepage": "https://hsj-docs.buidlerlabs.com/",
   "main": "main.mjs",
   "scripts": {
     "test": "node main.mjs"
   },
   "keywords": [],
-  "author": "BuiDlerLabs Developers <devs@buidlerlabs.com>",
+  "author": "Buidler Labs Developers <devs@buidlerlabs.com>",
   "license": "ISC",
   "dependencies": {
-    "@buidlerlabs/hedera-strato-js": "^0.6.9"
+    "@buidlerlabs/hedera-strato-js": "0.7.3"
   }
 }

@@ -1,7 +1,7 @@
-import { HederaNetwork, Contract } from '@buidlerlabs/hedera-strato-js';
+import { ApiSession, Contract } from '@buidlerlabs/hedera-strato-js';
 
-const hapiSession = await HederaNetwork.defaultApiSession();
+const { session } = await ApiSession.default();
 const helloContract = await Contract.newFrom({ path: './hello.sol' });
-const liveContract = await hapiSession.upload(helloContract);
+const liveContract = await session.upload(helloContract);
 
 console.log(await liveContract.greet());
